@@ -1,0 +1,47 @@
+*{
+margin : 0;
+padding:0;
+box-sizing: border-box;
+}
+html,body {
+width: 100%;
+height:100%;
+}
+.status{
+    border-bottom: 2px rgb(80, 79, 79) solid;
+}
+.allstatus::-webkit-scrollbar{
+    display:none;
+}
+.card{
+    border: 2px black solid;
+    box-shadow: 5px 5px 5px rgb(67, 65, 65);
+}
+.data{
+    pointer-events: none;
+}
+.status{
+    pointer-events: none;
+}
+.allstatus{
+    pointer-events: none;
+}
+.status img{
+    pointer-events: fill;
+}
+.full{
+    background-image: url("https://images.unsplash.com/photo-1516826711647-4c4df2849301?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGdpcmxzfGVufDB8fDB8fHww");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.full{
+    display:none;
+
+}
+.bg img{
+    cursor: pointer;
+}
+.wide{
+    transition: all ease .5s;
+}
