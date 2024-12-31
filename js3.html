@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./js3.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="main h-screen w-full bg-black text-white px-10  ">
+        <h1  class=" header text-center text-[3vw] py-5 mb-10">Enter your credential to move forward</h1>
+         
+        <form class="  form flex flex-col gap-8 ">
+            <h1 class="text-red-300 please font-semibold">Please fill form completely</h1>
+           <label for="data">
+            Name: 
+            <input class=" input ml-28" type="text" placeholder="Enter Name">
+           </label>
+           <label for="data">
+            Age: 
+            <input class="umur input ml-32" type="number" placeholder="Enter age">
+            <h1 class="text-red-300 age">Age not sufficient</h1>
+           </label>
+           <label for="data">
+            Gender:
+             
+            <input class=" input ml-24" type="radio" name="gender" placeholder="DOB">
+            male
+            <input class=" input " type="radio" name="gender" placeholder="DOB">
+            female
+            <input class=" input " type="radio" name="gender" placeholder="DOB">
+           others
+           </label>
+           <label for="data">
+            phoneNumber:
+            <input class="phone input ml-8" type="number" placeholder="phoneNumber">
+            <h1 class="cell text-red-300">Enter 10 digit</h1>
+           </label>
+           <label for="data">
+            EmailAddress:
+            <input class=" input ml-10" type="email" placeholder="email">
+           </label>
+           <label for="data">
+            password:
+            <input class=" pass input ml-10" type="password" placeholder="password">
+            <h1 class="passs text-red-300">Please use special symbol, capital, small ,numbers and more than 8 digit passcode</h1>
+           </label>
+           <label for="data">
+            
+            <input class="sub bg-blue-500 rounder-[10px] font-semibold px-5 py-3 active:scale-[0.98] cursor-pointer text-white" type="submit" placeholder="email">
+           </label>
+        </form>
+
+
+
+
+
+    </div>
+    
+    <script src="./js3.js"></script>
+</body>
+</html>
