@@ -1,0 +1,28 @@
+*{
+margin : 0;
+padding:0;
+box-sizing: border-box;
+}
+html,body {
+width: 100%;
+height:100%;
+}
+.colorBox{
+  border: 2px solid white;
+  cursor: pointer;
+  pointer-events: none;
+  background-color: rgb(255, 254, 254);
+}
+
+
+.collector .small{
+  
+  
+  cursor: pointer;
+}
+.collector::-webkit-scrollbar{
+  display: none;
+}
+.box1{
+  display: none;
+}
